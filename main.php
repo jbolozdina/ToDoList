@@ -14,7 +14,7 @@
         
         <div class="top">
             <h1>To-Do List</h1>
-            <p>made with ❤️ for Printful by Jegors Bolozdiņa</p>
+            <p>made for Printful by Jegors Bolozdiņa</p>
         </div>
 
         <div class="container">
@@ -33,10 +33,10 @@
                     </div>
                     <div class="row">
                         <div class="col-8">
-                            <p class="creationTime">16.06 14:55</p>
+                            <p class="creationTime">Today</p>
                         </div>
                         <div class="col-4">
-                            <button type="button" class="btn btn-warning btn-sm float-end rounded-0">Edit</button>
+                            <button type="button" class="btn btn-warning btn-sm col-7 float-end rounded-0">Edit</button>
                         </div>
                     </div>
                 </div>
@@ -54,10 +54,10 @@
                     </div>
                     <div class="row">
                         <div class="col-8">
-                            <p class="creationTime">16.06 14:55</p>
+                            <p class="creationTime">Yesterday</p>
                         </div>
                         <div class="col-4">
-                            <button type="button" class="btn btn-warning btn-sm float-end rounded-0">Edit</button>
+                            <button type="button" class="btn btn-warning btn-sm col-7 float-end rounded-0">Edit</button>
                         </div>
                     </div>
                 </div>
@@ -75,10 +75,10 @@
                     </div>
                     <div class="row">
                         <div class="col-8">
-                            <p class="creationTime">16.06 14:55</p>
+                            <p class="creationTime">Yesterday</p>
                         </div>
                         <div class="col-4">
-                            <button type="button" class="btn btn-warning btn-sm float-end rounded-0">Edit</button>
+                            <button type="button" class="btn btn-warning btn-sm col-7 float-end rounded-0">Edit</button>
                         </div>
                     </div>
                 </div>
@@ -90,16 +90,14 @@
                                 <h4>Complete the assignment</h4>
                             </label>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            
-                        </p>
+                        <p>fgafgadgf</p>
                     </div>
-                    <div class="row">
+                    <div class="row" style="position:relative;bottom:0;">
                         <div class="col-8">
-                            <p class="creationTime">16.06 14:55</p>
+                            <p class="creationTime">3 days ago</p>
                         </div>
                         <div class="col-4">
-                            <button type="button" class="btn btn-warning btn-sm float-end rounded-0">Edit</button>
+                            <button type="button" class="btn btn-warning btn-sm col-7 float-end rounded-0">Edit</button>
                         </div>
                     </div>
                 </div>

@@ -3,7 +3,6 @@
     bottom: 20px;
 }
 
-
 .form-check{
     margin-left: 12px;
 }
@@ -11,8 +10,6 @@
 .form-check .form-check-input{
     margin-top: 7px;
 }
-
-
 
 .hovering {
     box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
@@ -40,7 +37,8 @@
 
 .creationTime{
     font-size: 12px;
-
+    padding-top: 8px;
+    margin-bottom: 0px;
 }
 
 .container{
@@ -53,7 +51,7 @@
 
 .shadowed-box{
     box-shadow: 0px 0px 4px rgba(0,0,0,0.1);
-    padding-top: 20px;
+    padding-top: 13px;
     padding-bottom: 9px;
 }
 

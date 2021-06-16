@@ -3,6 +3,17 @@
     bottom: 20px;
 }
 
+
+.form-check{
+    margin-left: 12px;
+}
+
+.form-check .form-check-input{
+    margin-top: 6px;
+}
+
+
+
 .hovering {
     box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
 }
@@ -29,7 +40,6 @@
 
 .creationTime{
     font-size: 12px;
-    margin-bottom: 0px;
 
 }
 

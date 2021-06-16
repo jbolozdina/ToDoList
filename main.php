@@ -20,57 +20,88 @@
         <div class="container">
             <div class="row row-cols-1 row-cols-md-2" id="tasks">
                 <div class="shadowed-box">
-                    
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="check1">
-                        <label class="form-check-label" for="check1">
-                            <h4>Complete the assignment</h4>
-                        </label>
+                    <div class="row">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="check1">
+                            <label class="form-check-label" for="check1">
+                                <h4>Complete the assignment</h4>
+                            </label>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            
+                        </p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        
-                    </p>
-                    <p class="creationTime">16.06 14:55</p>
-                    <button type="button" class="btn btn-warning btn-sm float-end">Edit</button>
+                    <div class="row">
+                        <div class="col-8>
+                            <p class="creationTime">16.06 14:55</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-warning btn-sm float-end rounded-0">Edit</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="shadowed-box">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="check2">
-                        <label class="form-check-label" for="check2">
-                            <h4>Become smarter</h4>
-                        </label>
+                    <div class="row">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="check1">
+                            <label class="form-check-label" for="check1">
+                                <h4>Complete the assignment</h4>
+                            </label>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            
+                        </p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <p class="creationTime">16.06 14:55</p>
-                    <button type="button" class="btn btn-warning btn-sm float-end">Edit</button>
+                    <div class="row">
+                        <div class="col-8">
+                            <p class="creationTime">16.06 14:55</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-warning btn-sm float-end rounded-0">Edit</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="shadowed-box">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="check3">
-                        <label class="form-check-label" for="check3">
-                            <h4>WeirdChamp</h4>
-                        </label>
+                    <div class="row">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="check1">
+                            <label class="form-check-label" for="check1">
+                                <h4>Complete the assignment</h4>
+                            </label>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <p class="creationTime">16.06 14:55</p>
-                    <button type="button" class="btn btn-warning btn-sm float-end">Edit</button>
+                    <div class="row">
+                        <div class="col-8">
+                            <p class="creationTime">16.06 14:55</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-warning btn-sm float-end rounded-0">Edit</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="shadowed-box">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="check4">
-                        <label class="form-check-label" for="check4">
-                            <h4>Pog</h4>
-                        </label>
+                    <div class="row">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="check1">
+                            <label class="form-check-label" for="check1">
+                                <h4>Complete the assignment</h4>
+                            </label>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            
+                        </p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <p class="creationTime">15.06 2:28<button type="button" class="btn btn-warning btn-sm float-end">Edit</button></p>
-                    
+                    <div class="row">
+                        <div class="col-8">
+                            <p class="creationTime">16.06 14:55</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-warning btn-sm float-end rounded-0">Edit</button>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="d-grid">
@@ -89,7 +120,7 @@
                     '</div>' +
                 '<p>this totally works</p>' +
                 '<p class="creationTime">16.06 2:28</p>' +
-                '<button type="button" class="btn btn-warning btn-sm float-end">Edit</button>' +
+                '<button type="button" class="btn btn-warning btn-sm float-end rounded-0">Edit</button>' +
                 '</div>';      
             }
             

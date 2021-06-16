@@ -32,7 +32,7 @@
                         </p>
                     </div>
                     <div class="row">
-                        <div class="col-8>
+                        <div class="col-8">
                             <p class="creationTime">16.06 14:55</p>
                         </div>
                         <div class="col-4">

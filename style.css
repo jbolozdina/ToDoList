@@ -1,0 +1,18 @@
+#top {
+    padding-top: 10px;
+    text-align: center;
+}
+
+#creationTime{
+    text-align:right;
+}
+
+.form-check-input{
+    margin-top: 20px;
+}
+
+.task {
+    border: 3px solid gray;
+    padding: 10px;
+    margin: 20px;
+}

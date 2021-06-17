@@ -9,8 +9,8 @@
                 <div class="row">
                     
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="check1">
-                        <label class="form-check-label" for="check1">
+                        <input class="form-check-input" type="checkbox" id='<?php echo "check" . $result[$k]["id"];?>'>
+                        <label class="form-check-label" for='<?php echo "check" . $result[$k]["id"];?>'>
                             <h4><?php echo $result[$k]["name"];?></h4>
                         </label>
                     </div>
@@ -20,7 +20,7 @@
                     <div class="col-8">
                         <p class="creation-date"><?php echo $result[$k]["doc"];?></p>
                     </div>
-                    <div class="btn-group col-4" role="group" aria-label="Basic mixed styles example">
+                    <div class="btn-group col-4" role="group">
                         <button type="button" class="btn btn-danger btn-sm"><a class="destyled-btn" href="index.php?action=task-delete&id=<?php echo $result[$k]["id"];?>">🗑️</a></button>
                         <button type="button" class="btn btn-warning btn-sm"><a class="destyled-btn" href="index.php?action=task-edit&id=<?php echo $result[$k]["id"];?>">Edit</a></button>
                     </div>

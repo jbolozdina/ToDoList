@@ -1,21 +1,30 @@
 .destyled{
-    background:black;
     color: black; 
     text-decoration: none;
     transition-duration: 0.25s;
+}
+
+.destyled-btn{
+    color:white;
+    text-decoration:none;
+    transition-duration: 0.25s;
+}
+
+.hack{
+    display:none;
 }
 
 .destyled:hover{
     color:orange;
 }
 
-.thin{
-    width: 50%;
-}
-
 .btn-fixed{
     position: fixed;
     bottom: 20px;
+}
+
+.fix-left{
+    padding-left: 2px;
 }
 
 .creation-form{
@@ -65,6 +74,7 @@
 }
 
 .container{
+    margin-top:15px;
     margin-bottom:70px;
     box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
 }
@@ -85,4 +95,18 @@
 
 .row .btn{
     box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+}
+
+.error {
+    background-color: #FF6600;
+    border: #AA4502 1px solid;
+
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.info {
+    font-size: .8em;
+    color: #FF6600;
+    letter-spacing: 2px;
 }

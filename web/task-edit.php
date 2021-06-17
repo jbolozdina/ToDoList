@@ -4,7 +4,7 @@
     <form name="frmAdd" method="post" action="" id="frmAdd"
     onSubmit="return validate();"> <!-- return result of the validate func -->
         <div class="pt-4 text-center">
-            <label for="taskName" class="form-label"><h4>New Task Name</h4></label>
+            <label for="taskName" class="form-label"><h4>Edit Task Name</h4></label>
             <span id="name-info" class="info"></span>
             <input type="text" name="name" class="form-control" id="name" value="<?php echo $result[0]["name"]; ?>"> <!-- retrieve and echo variable to put it in the input box -->
         </div>

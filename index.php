@@ -4,7 +4,7 @@ require_once ("class/DBController.php");
 require_once ("class/Task.php");
 
 $action = '';
-$db_handle = new DBController();
+$db_handle = new DBController(); // init controller
 if (!empty($_GET["action"])) {
     $action = $_GET["action"];
 }

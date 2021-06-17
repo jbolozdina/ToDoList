@@ -1,10 +1,33 @@
-#floating-btn{
+.destyled{
+    background:black;
+    color: black; 
+    text-decoration: none;
+    transition-duration: 0.25s;
+}
+
+.destyled:hover{
+    color:orange;
+}
+
+.thin{
+    width: 50%;
+}
+
+.btn-fixed{
     position: fixed;
     bottom: 20px;
 }
 
+.creation-form{
+    height:200px;
+}
+
 .form-check{
     margin-left: 12px;
+}
+
+.form-label h4{
+    margin-bottom: 15px;
 }
 
 .form-check .form-check-input{
@@ -15,7 +38,7 @@
     box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
 }
 
-.top {
+.custom-header {
     position: sticky;
     background-color: white;
     top: 0;
@@ -26,22 +49,23 @@
     box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
 }
 
-.top p {
+.custom-header p {
     font-size: 10px;
     margin-bottom: 10px;
 }
 
-.top h1 {
+.custom-header h1 {
     margin-bottom: 0px;
 }
 
-.creationTime{
+.creation-date{
     font-size: 12px;
     padding-top: 8px;
     margin-bottom: 0px;
 }
 
 .container{
+    margin-bottom:70px;
     box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
 }
 

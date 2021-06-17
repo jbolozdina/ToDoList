@@ -6,16 +6,16 @@ class DBController {
     private $database = "todolist";
     private $conn;
     
-    function __construct() {
+    function __construct() { // class constructor
         $this->conn = $this->connectDB();
     }   
     
-    function connectDB() {
+    function connectDB() { // connect & authenticate
         $conn = mysqli_connect($this->host,$this->user,$this->password,$this->database);
         return $conn;
     }
     
-    function runBaseQuery($query) {
+    function runBaseQuery($query) { // run query & fetch database items (elements/tasks in our case)
         $result = $this->conn->query($query);   
         if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
@@ -28,7 +28,7 @@ class DBController {
     
     
     
-    function runQuery($query, $param_type, $param_value_array) {
+    function runQuery($query, $param_type, $param_value_array) { // execute query & parameters that go along with it
         $sql = $this->conn->prepare($query);
         $this->bindQueryParams($sql, $param_type, $param_value_array);
         $sql->execute();
